@@ -33,6 +33,12 @@ npm run build
 - Vercel deployment: [Vercel](https://todo-card-hng-stage-0-i14.vercel.app)
 - Custom domain: [Portfolio sub-domain](https://www.todo-card.ifecodes.xyz)
 
+## Author
+- Name: Fortune Ife Aladetan
+- Email: [contact@ifecodes.xyz](mailto:contact@ifecodes.xyz)
+- GitHub: [ALADETAN-IFE](https://github.com/ALADETAN-IFE)
+- Portfolio: [ifecodes.xyz](https://www.ifecodes.xyz)
+
 ## Notes
 
 - Time remaining text is computed from a fixed due date in `src/utils/todo.ts`.
