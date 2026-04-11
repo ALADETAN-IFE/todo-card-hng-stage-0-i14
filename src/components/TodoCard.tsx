@@ -11,7 +11,7 @@ import { Typography } from "./ui/Typography";
 
 const TODO_CARD_STYLES = {
   sectionLabel:
-    "text-[0.8rem] font-bold uppercase tracking-[0.11em] text-slate-500",
+    "text-[0.8rem] font-bold uppercase tracking-[0.11em] text-slate-700",
   metaValue: "text-base font-semibold text-slate-900",
   fieldGroup: "grid gap-[6px]",
   focusRing:
@@ -43,13 +43,13 @@ export function TodoCard() {
       <div className="mb-4.5 flex items-center justify-between gap-4 max-sm:flex-col max-sm:items-start">
         <Typography
           as="span"
-          className="text-[0.82rem] font-bold uppercase tracking-[0.14em] text-slate-600"
+          className="text-[0.82rem] font-bold uppercase tracking-[0.14em] text-slate-700"
         >
           Today's focus
         </Typography>
         <Typography
           as="span"
-          className="inline-flex items-center justify-center rounded-full bg-linear-to-br from-amber-500 to-red-500 px-[0.85rem] py-[0.45rem] text-[0.88rem] font-bold text-orange-50"
+          className="inline-flex items-center justify-center rounded-full bg-linear-to-br from-amber-700 to-red-700 px-[0.85rem] py-[0.45rem] text-[0.88rem] font-bold text-white"
           data-testid="test-todo-priority"
           aria-label="Priority: High"
         >
