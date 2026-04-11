@@ -67,7 +67,7 @@ export function TodoCard() {
           }`}
           data-testid="test-todo-title"
         >
-          Finish the launch-ready todo card
+          Design an Accessible Todo Task Card
         </Typography>
         <Typography
           as="p"
@@ -152,10 +152,7 @@ export function TodoCard() {
         </span>
       </label>
 
-      <section
-        className="mt-5.5 grid gap-2.5"
-        aria-labelledby="tags-heading"
-      >
+      <section className="mt-5.5 grid gap-2.5" aria-labelledby="tags-heading">
         <Typography
           as="h3"
           id="tags-heading"
