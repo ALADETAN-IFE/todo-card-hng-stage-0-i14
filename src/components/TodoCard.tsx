@@ -75,7 +75,7 @@ export function TodoCard() {
           data-testid="test-todo-description"
         >
           A polished, testable task card with keyboard support, responsive
-          layout, and clear status signals for the grader.
+          layout, and clear status signals for better focus.
         </Typography>
       </header>
 
