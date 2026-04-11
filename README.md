@@ -29,6 +29,10 @@ npm run dev
 npm run build
 ```
 
+## Live Demo
+- Vercel deployment: [Vercel](https://todo-card-hng-stage-0-i14.vercel.app)
+- Custom domain: [Portfolio sub-domain](https://www.todo-card.ifecodes.xyz)
+
 ## Notes
 
 - Time remaining text is computed from a fixed due date in `src/utils/todo.ts`.
