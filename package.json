@@ -5,8 +5,8 @@
   "description": "Frontend Stage 0 Todo Card - hng-stage-0(i14)",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "node api.js && vite",
+    "build": "node api.js && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
